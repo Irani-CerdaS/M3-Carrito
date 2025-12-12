@@ -1,0 +1,48 @@
+/* 1. Contenedor y Título */
+.contact-section-bg {
+    /* Fondo para contrastar y dar énfasis a la sección de contacto */
+    background-color: #f8f9fa; /* Un gris muy claro, puedes usar un color más oscuro si prefieres */
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.contact-section-bg h2 {
+    /* Color del texto del título: usa el morado oscuro del diseño */
+    color: #4b0082; 
+    font-weight: 700; /* Hace el título más audaz */
+}
+
+/* 2. Estilos de los Campos de Entrada */
+#formulario-contacto label {
+    /* Color de las etiquetas del formulario */
+    color: #4b0082; /* Morado oscuro para buena legibilidad */
+    font-weight: 500;
+}
+
+#formulario-contacto .form-control {
+    /* Estilo del campo de entrada y área de texto */
+    border: 1px solid #ccc; 
+    transition: border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+#formulario-contacto .form-control:focus {
+    /* Efecto al hacer clic en el campo (foco) */
+    border-color: #9370db; /* Morado medio o lila */
+    box-shadow: 0 0 0 0.25rem rgba(147, 112, 219, 0.25); /* Sombra suave lila */
+}
+
+/* 3. Estilo del Botón "Enviar" */
+#formulario-contacto .btn-primary {
+    /* Usa el color morado oscuro como fondo del botón principal */
+    background-color: #4b0082; 
+    border-color: #4b0082;
+    padding: 10px 30px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+#formulario-contacto .btn-primary:hover {
+
+    background-color: #6a5acd; /* Un morado un poco más claro para el hover */
+    border-color: #6a5acd;
+}
